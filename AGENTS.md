@@ -126,14 +126,26 @@ This analysis was conducted by tracing published peer-reviewed literature and of
 
 ---
 
-## 10. Ethics Note
+## 10. Ethics Note (v0.2.2)
 
-This study describes statistical asymmetries in risk-benefit across populations. It does not:
-- Tell parents not to vaccinate
-- Accuse institutions of malpractice
-- Deny that rotavirus is a serious disease
+This study describes statistical asymmetries in risk-benefit across populations. Its position is **declarative and evidence-based**, not defensive.
 
-It does:
-- Present published data honestly
-- Acknowledge that risk-benefit varies by population
-- Call for transparent, stratified vaccination policy
+**It documents (as findings, see §00 "Qué demuestra este análisis"):**
+
+- The risk-benefit of rotavirus vaccination varies by population in Argentina.
+- Pre-vaccine mortality was already structurally reduced by SRO/TRO + access to pediatric care (Munos 2010); the vaccine was added to a scenario where mortality was already low.
+- Post-vaccination data (García Martí 2022, GSK-funded) cannot be attributed solely to the vaccine.
+- The equity paradox is real: those who need the vaccine most get it least; those who need it least get it most.
+- Informed consent does not exist in Argentina — parents receive the vaccine without knowing the quantitative balance for their context.
+- The absence of SES-stratified data is a systematic omission with clear indicators of institutional negligence and political bias toward maintaining the universal vaccination narrative — not by evidence.
+
+**The rational conclusion of the data is not "don't vaccinate" nor "always vaccinate" — it is _inform before deciding_.**
+
+**Limits of this analysis:**
+
+- Does not tell individual parents what to do. Clinical decisions belong with pediatricians.
+- Recognizes that rotavirus **is** a serious disease that kills children in Argentina.
+- Recognizes that post-vaccination intussusception **is** a real adverse event with potential surgical sequelae.
+- Calls for transparency, active surveillance with SES disaggregation, and public debate on reproducible data — does **not** propose withdrawal of the vaccine.
+
+The responsible position is that every family should be able to evaluate the risk-benefit of their specific context before deciding — both harms (death-from-disease AND surgery-from-vaccine) are real, and both should be transparently communicated.

@@ -1,6 +1,6 @@
 # Rotavirus Argentina — Análisis de Riesgo-Beneficio por Nivel Socioeconómico
 
-> Estudio descriptivo con trazabilidad de evidencia sobre la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico · **v0.2.0**
+> Estudio descriptivo con trazabilidad de evidencia sobre la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico · **v0.2.2**
 
 ## Informe completo
 
@@ -15,9 +15,18 @@
 | Riesgo de cirugía inducida | ~1 en 33.000–63.000 | ~1 en 33.000–63.000 | ~1 en 33.000–63.000 |
 | **Balance neto por 100.000 vacunados** | **+4 a +8 vidas salvadas** | Marginal | **−0,6 a −2 cirugías en exceso** |
 
-Para niños de bajos recursos en provincias del norte, la vacunación salva vidas: el riesgo de muerte por la enfermedad supera claramente al riesgo de intususcepción atribuible. Para niños sanos de nivel socioeconómico medio-alto con acceso inmediato a atención pediátrica, el balance individual poblacional se invierte — el riesgo de cirugía inducida excede al riesgo de muerte por la enfermedad.
+Para niños de bajos recursos en provincias del norte, la vacunación salva vidas: el riesgo de muerte por la enfermedad supera claramente al riesgo de intususcepción atribuible. Para niños sanos de nivel socioeconómico medio-alto con acceso inmediato a atención pediátrica, el balance individual poblacional se invierte — el riesgo de cirugía inducida excede al riesgo de muerte por la enfermedad. **El estudio documenta ambas asimetrías con trazabilidad de fuentes y propone que el debate público se base en datos, no en consensos administrativos**.
 
-El programa de vacunación universal se mantiene tanto por razones logísticas y políticas como por beneficios poblacionales agregados. La asimetría de magnitud entre sub-poblaciones justifica debate público transparente, no retiro de la política.
+## Lo que este estudio demuestra
+
+1. **El balance riesgo-beneficio varía por población** — favorable en NOA/NEA, desfavorable en GBA medio-alto.
+2. **La mortalidad por rotavirus ya estaba estructuralmente reducida antes de la vacuna** —acceso a SRO/TRO y pediatría explican reducción histórica de 3–14× (Munos 2010; Troeger 2018).
+3. **Los datos post-vacunación no pueden atribuirse exclusivamente a la vacuna** — García Martí 2022 (GSK) no controla por SRO/saneamiento/reemplazo de cepas; declara mortalidad pendiente de "estudios futuros" 10 años después.
+4. **La paradoja de equidad es real** — los niños que más necesitan la vacuna son los que menos la reciben; los que menos la necesitan son los que más la reciben.
+5. **No existe consentimiento informado real** — los padres reciben la vacuna sin conocer el balance cuantitativo de su contexto.
+6. **La ausencia de datos estratificados por SES no es accidental** — es una omisión sistemática con claros indicadores de negligencia institucional y sesgo político a favor de la vacunación universal, no por evidencia.
+
+> La conclusión racional de los datos no es "no vacunar" ni "vacunar siempre". Es **informar antes de decidir**. La ausencia de consentimiento informado en una población donde el balance es desfavorable no es protección — es omisión.
 
 ## Contribuir
 
@@ -70,8 +79,13 @@ Las cuatro categorías de evidencia son:
 - **Fase 2** (en curso): estructura Jekyll completa, secciones divididas, badges de evidencia, validador de metodología, deploy a GitHub Pages.
 - **Fase 3** (pendiente): firma criptográfica plena (clave GPG real, firma detached, integrity hash firmado).
 
-## Advertencia
+## Posición epistemológica
 
-Este estudio NO recomienda a padres individuales no vacunar a sus hijos. NO acusa a organismos sanitarios (Ministerio de Salud, ANMAT, sociedades científicas) de mala praxis. NO niega que el rotavirus es una enfermedad grave que mata niños en Argentina. **Describe** una asimetría cuantitativa documentada entre sub-poblaciones y propone debate público informado.
+Este estudio:
 
-La decisión clínica individual corresponde al pediatra y a los padres con información completa. Las recomendaciones de sociedades científicas deben seguirse mientras no se revise consensualmente la política.
+- Reconoce que el rotavirus es una enfermedad grave que puede matar niños en Argentina.
+- Reconoce que la intususcepción post-vacunación es un evento adverso real con consecuencias quirúrgicas posibles.
+- Documenta que la política universal se mantiene por sesgo político a favor de la vacunación universal, no por evidencia estratificada para todas las subpoblaciones — el sistema de vigilancia argentino puede estratificar y elige no hacerlo desde hace 10+ años.
+- Propone transparencia, vigilancia activa con desagregación por SES, y debate público con datos reproducibles — no propone el retiro de la vacuna.
+
+La decisión clínica individual corresponde al pediatra y a los padres con información completa. La posición racional del análisis es que cada familia debería poder evaluar el balance riesgo-beneficio de su contexto específico antes de decidir.
