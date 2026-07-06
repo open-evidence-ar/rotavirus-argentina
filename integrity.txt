@@ -1,0 +1,3 @@
+# Pendiente — se generará automáticamente por el workflow CI antes del deploy.
+# Formato esperado:
+#   SHA256 (index.html) = <hash-de-64-chars-hex>

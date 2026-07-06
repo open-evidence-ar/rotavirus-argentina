@@ -1,0 +1,7 @@
+source: https://github.com/Project-Evidence/project-evidence.github.io
+methodology: replicada de Project-Evidence (Scribble → Jekyll + Markdown)
+parent_project: https://github.com/open-evidence-ar/state-vs-family-evidence
+domain: vacunación universal (Rotarix®), riesgo-beneficio, Argentina
+version: 0.2.0
+last_review: julio 2026
+languages: es

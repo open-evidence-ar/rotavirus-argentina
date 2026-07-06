@@ -1,0 +1,15 @@
+title: "Vacunación contra Rotavirus en Argentina: Análisis de Riesgo-Beneficio por Nivel Socioeconómico"
+description: "Estudio descriptivo con trazabilidad de evidencia, intervalos verificables y fuentes publicadas — replicando la metodología de Project-Evidence"
+lang: es
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

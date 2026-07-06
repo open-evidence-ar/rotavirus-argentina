@@ -1,0 +1,62 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Generate integrity
+        run: sha256sum _site/index.html > _site/integrity.txt
+      - name: Sign build
+        if: env.GPG_PRIVATE_KEY != ''
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
+          gpg --armor --detach-sign --default-key "Rotavirus Argentina Evidence" _site/index.html
+          mv _site/index.html.asc _site/signature
+      - name: Generate archive
+        run: |
+          cd _site
+          test -f public.pem || { echo "Missing public.pem"; exit 1; }
+          cp llms.txt rotavirus-argentina.md 2>/dev/null || true
+          zip -r ../archive.zip rotavirus-argentina.md integrity.txt signature public.pem 2>/dev/null || zip -r ../archive.zip integrity.txt signature public.pem
+          mv ../archive.zip .
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,39 @@
+# Vacunación contra Rotavirus en Argentina: Análisis de Riesgo-Beneficio por Nivel Socioeconómico
+
+> Estudio descriptivo con trazabilidad de evidencia, intervalos verificables y fuentes publicadas — Versión 0.2.0. Analiza la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico. Publicado como single page Jekyll en GitHub Pages (Fase 2 — firma PGP pendiente Fase 3).
+
+Idioma: español. País: Argentina. Badges de evidencia: Observado, Derivado, Supuesto, Exploratorio. §0–§11 = núcleo empírico; anexos = fact-check, glosario de badges. La cita de cada número rastrea a una fuente archivada.
+
+## Núcleo empírico
+
+- [Resumen Ejecutivo + Encuadre Metodológico](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/00-methodology.md): Tabla central con 3 escenarios por indicador (pobre/promedio/medio-alto), taxonomía de evidencia, alcance temporal, política de contribución y corrección
+- [Objetivo](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/01-objective.md): Pregunta de investigación, alcance descriptivo,灾 preguntas que NO se contestan
+- [Marco temporal](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/02-vaccine-timeline.md): Programa de vacunación 2015, Rotarix G1P[8], esquema 2+4 meses, cobertura 61–80%
+- [Carga de enfermedad pre-vacunación](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/03-disease-burden.md): 30–50 muertes/año, 150–200 mil casos/año, ~15.000 hospitalizaciones/año, cohorte Avellaneda 1983–1986, Gómez 1998 nacional
+- [Riesgo absoluto de muerte](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/04-death-risk.md): Cálculo nacional ~1 en 23.000–39.000 (<1 año), ~1 en 12.500 anualizado (Gómez 1998)
+- [Riesgo de intususcepción por vacuna](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/05-intussusception-risk.md): Ensayo clínico 63.225 (RR 0,85 sin aumento), post-comercialización 1 en 18.000 (OMS) a 1 en 111.000 (Canadá), riesgo cirugía 1 en 33.000–63.000
+- [Gradiente socioeconómico](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/06-ses-gradient.md): NOA vs nacional 2,7×; NOA vs GBA 5–15×; cohorte Córdoba 2,3 episodios/niño/año; 82% de muertes globales en países pobres
+- [Riesgo-beneficio desagregado](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/07-risk-benefit.md): Pobre +4 a +8 vidas/100.000; medio-alto −0,6 a −2 daño neto/100.000; asimetría de orden 5–10×
+- [Impacto post-vacunación](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/08-post-vaccination.md): Reducción casos 59,4% en <1 año (García Martí 2022), 233.947 casos evitados 2015–2018
+- [Costo-beneficio](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/09-cost-benefit.md): Programa cost-saving en agregado nacional (San Luis: >4,5M pesos ahorrados), costo dosis US$ 5–10 público
+- [Paradoja de equidad](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/10-equity-paradox.md): Niños que más necesitan vacuna son los que menos la reciben; cobertura pro-rico documentada en países LMIC
+
+## Aparato académico
+
+- [Argumentos contrarios](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-counterclaims.md): 10 objeciones formales evaluadas con rigor (pro-vacunación, anti-vacunación, metodológicas, políticas)
+- [Conclusiones](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/11-conclusions.md): 10 conclusiones con limitaciones explícitas y agenda de debate
+- [Sobre los autores](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-authors.md): Postura epistemológica, verificación PGP (placeholder Fase 2), contacto
+- [Nomenclatura](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-nomenclature.md): Glosario completo (RV, IS, NOA, NEA, GBA, Rotarix, SIVILA, DEIS, EMA, etc.)
+- [Revisiones](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-revisions.md): Historial de versiones del informe
+- [Fuentes primarias](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/12-sources.md): 30 fuentes con DOI o URL oficial, enlaces archived a web.archive.org
+
+## Anexos
+
+- [Fact-check](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/annex-a-factcheck.md): 43 afirmaciones verificables con valor, escenario, evidencia y URL
+- [Glosario de badges](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/annex-b-glossary.md): Taxonomía de evidencia y denominadores de riesgo de IS
+
+## Optional
+
+- [README](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/README.md): Resumen del proyecto, hallazgos clave, enlaces de verificación
+- [AGENTS.md](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/AGENTS.md): Manual operativo para contribuidores y agentes
+- [CONTRIBUTING.md](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/CONTRIBUTING.md): Guía de contribución, templates de issues

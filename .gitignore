@@ -1,0 +1,14 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-metadata/
+.sass-cache/
+node_modules/
+*.zip
+private-key.asc
+private-key*
+.env
+.env.*
+check_data.py
+check_data_fast.py
+check_data_final.py
