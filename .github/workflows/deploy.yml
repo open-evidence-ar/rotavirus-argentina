@@ -50,9 +50,13 @@ jobs:
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
         run: |
-          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
-          gpg --armor --detach-sign --default-key "Rotavirus Argentina Evidence" _site/index.html
+          echo "$GPG_PRIVATE_KEY" > /tmp/gpg-key.asc
+          gpg --batch --import /tmp/gpg-key.asc
+          rm -f /tmp/gpg-key.asc
+          gpg --batch --yes --armor --detach-sign --default-key "Rotavirus Argentina Evidence" _site/index.html
           mv _site/index.html.asc _site/signature
+          echo "=== Signature generated ==="
+          head -2 _site/signature
       - name: Generate archive
         run: |
           cd _site
