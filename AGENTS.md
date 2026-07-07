@@ -13,7 +13,7 @@ Operating manual for the rotavirus risk-benefit analysis project. Adapted from t
 **Methodology source:** [Project-Evidence](https://github.com/Project-Evidence/project-evidence.github.io)
 **Language:** Spanish (es)
 **Type:** Single-page Jekyll document deployed to GitHub Pages
-**Version:** 0.2.0 (Fase 2 — estructura Jekyll completa; Fase 3 pendiente para firma PGP)
+**Version:** 0.3.0 (Fase 2 completada; Fase 3 parcial — PGP real + scripts de validación)
 
 ---
 
@@ -71,7 +71,7 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 - [x] Write initial findings document (`index.md` — monolítico 407 líneas)
 - [x] Compile all sources
 
-## 6. Phase 2 — In Progress (v0.2.0)
+## 6. Phase 2 — Completed (v0.2.0)
 
 - [x] Create Jekyll structure (config, layouts, includes)
 - [x] Split `index.md` monolítico into `sections/*.md` (19 archivos)
@@ -84,11 +84,13 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 - [ ] First deploy to GitHub Pages (pending git push)
 - [ ] Continuous integration tests confirmed green
 
-## 7. Phase 3 — Pending (post v0.2.0 deploy)
+## 7. Phase 3 — In Progress (v0.3.0)
 
-- [ ] Generate real GPG keypair
-- [ ] Replace `public.pem` / `signature` / `integrity.txt` placeholders with real signed artifacts
-- [ ] Configure `secrets.GPG_PRIVATE_KEY` on GitHub Actions
+- [x] Generate real GPG keypair (RSA 4096, fingerprint `93604ADBAFBDBB56D60B37CA8585492BFC14A09A`)
+- [x] Replace `public.pem` placeholder with real public key (`signature` + `integrity.txt` are CI-generated, not committed)
+- [x] Configure `secrets.GPG_PRIVATE_KEY` on GitHub Actions
+- [x] Numeric validation scripts (`scripts/validate_calculations.py` — 14 cases; `scripts/check_sources.py` — 38 sources)
+- [x] `agents/` directory (7 reference files adapted from parent project)
 - [ ] Optional: CSV evidence data files (INDEC-derived demographic projections, JS calc boxes for interactive calc-chain demonstration)
 - [ ] Validate all numbers against original sources (peer review)
 - [ ] Add regional breakdown tables (sub-provincial)

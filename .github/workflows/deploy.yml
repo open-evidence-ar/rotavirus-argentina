@@ -26,6 +26,19 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Setup Python (for scripts/validate_calculations.py)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate numeric calculations
+        run: python scripts/validate_calculations.py --verbose
+        # Block deploy if any numeric claim in sections/*.md is not reproduced
+        # within tolerance. Exit code 1 = mismatch, 2 = missing reference.
+        # Re-run with --json for machine-readable report (evidence/calculations-report.json).
+      - name: Check sources accessibility (best-effort)
+        run: python scripts/check_sources.py --timeout 8 || true
+        # Best-effort: dead URLs are reported but do NOT block deploy.
+        # Re-run with --json for evidence/sources-report.json.
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:

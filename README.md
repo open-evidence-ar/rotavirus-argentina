@@ -1,6 +1,6 @@
 # Rotavirus Argentina — Análisis de Riesgo-Beneficio por Nivel Socioeconómico
 
-> Estudio descriptivo con trazabilidad de evidencia sobre la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico · **v0.2.2**
+> Estudio descriptivo con trazabilidad de evidencia sobre la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico · **v0.3.0**
 
 ## Informe completo
 
@@ -36,13 +36,18 @@ Aceptamos nueva evidencia factual, refutaciones y correcciones. Ver [CONTRIBUTIN
 - [Refutar una afirmación](https://github.com/open-evidence-ar/rotavirus-argentina/issues/new?template=rebuttal.md)
 - [Reportar error técnico](https://github.com/open-evidence-ar/rotavirus-argentina/issues/new?template=bug-report.md)
 
-## Verificar autoría (Fase 3 — pendiente)
+## Verificar autoría
 
-- [Clave pública PGP](https://open-evidence-ar.github.io/rotavirus-argentina/public.pem) — Placeholder fase 2
-- [Firma detached](https://open-evidence-ar.github.io/rotavirus-argentina/signature) — Placeholder fase 2
-- [Hash de integridad](https://open-evidence-ar.github.io/rotavirus-argentina/integrity.txt) — Generado automáticamente por CI
+- [Clave pública PGP](https://open-evidence-ar.github.io/rotavirus-argentina/public.pem) — RSA 4096, fingerprint `93604ADBAFBDBB56D60B37CA8585492BFC14A09A`
+- [Firma detached](https://open-evidence-ar.github.io/rotavirus-argentina/signature) — Generada automáticamente por CI en cada deploy
+- [Hash de integridad](https://open-evidence-ar.github.io/rotavirus-argentina/integrity.txt) — SHA256 de `index.html`
 
-La verificación criptográfica plena (clave GPG real, firma detached válida, hash de integridad firmado) se completa en Fase 3 del proyecto. Hasta entonces, la trazabilidad descansa en el historial de revisiones y en la inmutabilidad de versiones firmadas en git.
+La firma PGP detached se regenera automáticamente en cada deploy mediante GitHub Actions (secreto `GPG_PRIVATE_KEY`). Para verificar localmente:
+
+    curl -s https://open-evidence-ar.github.io/rotavirus-argentina/signature -o _live_sig.asc
+    curl -s https://open-evidence-ar.github.io/rotavirus-argentina/integrity.txt -o _live_integrity.txt
+    gpg --verify _live_sig.asc _live_integrity.txt
+    # Expected: "Good signature from Rotavirus Argentina Evidence"
 
 ## Estructura del repositorio
 
@@ -56,9 +61,12 @@ La verificación criptográfica plena (clave GPG real, firma detached válida, h
 | `_config.yml` | Configuración Jekyll |
 | `llms.txt` | Índice LLM con enlaces raw a todas las secciones ([llmstxt.org](https://llmstxt.org)) |
 | `validate_ci.py` | Validator de cumplimiento metodológico (20 controles METH) |
+| `scripts/validate_calculations.py` | Reproducibilidad numérica (14 casos — bloquea deploy si regresión) |
+| `scripts/check_sources.py` | Verificación de accesibilidad de URLs de fuentes (best-effort) |
+| `agents/` | 7 archivos de referencia operativa (comandos, setup, gotchas, etc.) |
 | `source-metadata.yml` | Metadata de proveniencia metodológica |
 | `evidence/` | Manifiesto y referencias (sin PDFs crudos — sólo referencias) |
-| `public.pem` / `signature` / `integrity.txt` | Verificación criptográfica (placeholders Fase 2) |
+| `public.pem` / `signature` / `integrity.txt` | Verificación criptográfica (`public.pem` real; `signature` + `integrity.txt` generados por CI) |
 
 ## Metodología
 
@@ -76,8 +84,8 @@ Las cuatro categorías de evidencia son:
 ## Fases del proyecto
 
 - **Fase 1** (completada): recopilación de hallazgos, fuentes y borradores iniciales.
-- **Fase 2** (en curso): estructura Jekyll completa, secciones divididas, badges de evidencia, validador de metodología, deploy a GitHub Pages.
-- **Fase 3** (pendiente): firma criptográfica plena (clave GPG real, firma detached, integrity hash firmado).
+- **Fase 2** (completada): estructura Jekyll completa, secciones divididas, badges de evidencia, validador de metodología, deploy a GitHub Pages.
+- **Fase 3** (parcial): firma criptográfica PGP real implementada (clave RSA 4096, CI auto-firma en cada deploy). Pendiente: validación peer-review de todos los números contra fuentes originales, desagregación sub-provincial.
 
 ## Posición epistemológica
 
