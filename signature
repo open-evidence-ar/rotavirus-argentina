@@ -1,2 +1,0 @@
-Placeholder — detached PGP signature. Generar con:
-  gpg --armor --detach-sign --default-key "Rotavirus Argentina Evidence" index.html
