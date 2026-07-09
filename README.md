@@ -42,12 +42,15 @@ Aceptamos nueva evidencia factual, refutaciones y correcciones. Ver [CONTRIBUTIN
 - [Firma detached](https://open-evidence-ar.github.io/rotavirus-argentina/signature) — Generada automáticamente por CI en cada deploy
 - [Hash de integridad](https://open-evidence-ar.github.io/rotavirus-argentina/integrity.txt) — SHA256 de `index.html`
 
-La firma PGP detached se regenera automáticamente en cada deploy mediante GitHub Actions (secreto `GPG_PRIVATE_KEY`). Para verificar localmente:
+La firma PGP detached se regenera automáticamente en cada deploy mediante GitHub Actions (secreto `GPG_PRIVATE_KEY`). La firma firma el archivo `index.html` (no el `integrity.txt`). Para verificar localmente:
 
     curl -s https://open-evidence-ar.github.io/rotavirus-argentina/signature -o _live_sig.asc
+    curl -s https://open-evidence-ar.github.io/rotavirus-argentina/index.html -o _live_index.html
     curl -s https://open-evidence-ar.github.io/rotavirus-argentina/integrity.txt -o _live_integrity.txt
-    gpg --verify _live_sig.asc _live_integrity.txt
+    gpg --verify _live_sig.asc _live_index.html
     # Expected: "Good signature from Rotavirus Argentina Evidence"
+    # Then confirm the integrity hash matches the downloaded HTML:
+    # SHA256(_live_index.html) must equal the hash in _live_integrity.txt
 
 ## Estructura del repositorio
 

@@ -81,13 +81,18 @@ After push, monitor:
 ## Verify the live PGP signature (post-deploy)
 
 ```bash
-# Fetch the auto-generated detached signature from the live site
+# Fetch the auto-generated detached signature, the signed HTML, and the integrity hash
 curl -s https://open-evidence-ar.github.io/rotavirus-argentina/signature -o _live_signature.asc
+curl -s https://open-evidence-ar.github.io/rotavirus-argentina/index.html -o _live_index.html
 curl -s https://open-evidence-ar.github.io/rotavirus-argentina/integrity.txt -o _live_integrity.txt
 
-# Verify against the public.pem committed in the repo
-gpg --verify _live_signature.asc _live_integrity.txt
+# Verify the detached signature against the actual index.html (NOT the hash file)
+gpg --verify _live_signature.asc _live_index.html
 # Expected output: "Good signature from Rotavirus Argentina Evidence"
+
+# Separately confirm the integrity hash matches the downloaded HTML:
+#   SHA256(_live_index.html) must equal the hash in _live_integrity.txt
+#   (PowerShell: (Get-FileHash _live_index.html -Algorithm SHA256).Hash.ToLower())
 ```
 
 ---
@@ -118,3 +123,4 @@ gpg --verify _live_signature.asc _live_integrity.txt
 - **Python script fails with UnicodeEncodeError (cp1252)**: prepend `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8` to the session, or ensure `sys.stdout.reconfigure(encoding="utf-8")` is at the top of the script (already in both scripts/)
 - **gpg: signing failed: No secret key**: the local key was deleted after upload to GitHub Secrets. GitHub Actions does the signing now, not local. Only the public key is local.
 - **METH-006 (PGP) shows WARN**: `public.pem` still contains placeholder text. Replace with real exported `gpg --armor --export "Rotavirus Argentina Evidence"` output.
+
