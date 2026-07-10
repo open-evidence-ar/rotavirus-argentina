@@ -62,8 +62,8 @@ gpg --verify _site/signature _site/index.html
 ## Deploy (push to main triggers GitHub Actions)
 
 ```bash
-# Set remote with PAT (extract from .env, gitignored)
-$PAT = (Get-Content .env | Select-String "^GITHUB_PAT=").Line -replace "GITHUB_PAT=", ""
+# Set remote with PAT (extract from .env, gitignored; .env uses key `PAT`)
+$PAT = (Get-Content .env | Select-String "^PAT=").Line -replace "PAT=", ""
 git remote set-url origin "https://open-evidence-ar:$PAT@github.com/open-evidence-ar/rotavirus-argentina.git"
 
 git push origin main
