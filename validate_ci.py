@@ -169,16 +169,22 @@ else:
     result("WARN", "METH-007", "Integrity file exists but hash format unclear")
 
 
-# -- METH-008: Signature file -- placeholder tolerated in Phase 2 --
+# -- METH-008: Signature file -- CI-generated (not committed); real key exists --
 sig_file = BASE / "signature"
 sig_exists_real = sig_file.is_file() and sig_file.stat().st_size > 100  # real signature is hundreds of bytes
 sig_is_placeholder = sig_file.is_file() and sig_file.read_text(encoding="utf-8", errors="ignore").lower().count("placeholder") > 0
+pem_present = (BASE / "public.pem").is_file() and (BASE / "public.pem").stat().st_size > 100
 if sig_exists_real and not sig_is_placeholder:
     result("PASS", "METH-008", "Signature file exists and is non-trivial")
 elif sig_is_placeholder or (sig_file.is_file() and sig_file.stat().st_size <= 100):
     result("WARN", "METH-008", "Signature is PLACEHOLDER (Phase 3 pending)")
+elif pem_present:
+    # Real GPG keypair exists (public.pem non-trivial); signature is generated
+    # by the CI deploy workflow (GPG_PRIVATE_KEY secret) and not committed to
+    # the repo. Absence locally is expected, not a deploy-blocking failure.
+    result("WARN", "METH-008", "No signature file locally -- CI generates it on deploy (key present)")
 else:
-    result("FAIL", "METH-008", "No signature file -- no authenticity verification")
+    result("FAIL", "METH-008", "No signature file and no real PGP key present")
 
 
 # -- METH-009: Nomenclature / glossary -----------------------------

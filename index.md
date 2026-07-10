@@ -8,7 +8,7 @@ description: "Estudio descriptivo con trazabilidad de evidencia, intervalos veri
 <p class="subtitle">Estudio descriptivo con trazabilidad de evidencia · Borrador v0.2 · Julio 2026</p>
 <hr>
 
-*[Descargar archivo completo](archive.zip) · [Clave pública PGP](public.pem) · [Integridad](integrity.txt) · [Índice LLM](llms.txt)*
+*[Descargar archivo completo](archive.zip) · [Clave pública PGP](public.pem) · [Integridad](integrity.txt) · [Índice LLM](llms.txt) · [LLM completo](llms-full.txt)*
 
 {% include_relative sections/section-authors.md %}
 
