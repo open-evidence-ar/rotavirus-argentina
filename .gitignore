@@ -12,3 +12,8 @@ private-key*
 check_data.py
 check_data_fast.py
 check_data_final.py
+
+# local live-verification artifacts
+_live_index.html
+_live_integrity.txt
+_live_sig.asc
