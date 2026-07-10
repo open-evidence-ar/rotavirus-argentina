@@ -1,6 +1,6 @@
 # Vacunación contra Rotavirus en Argentina: Análisis de Riesgo-Beneficio por Nivel Socioeconómico
 
-> Estudio descriptivo con trazabilidad de evidencia, intervalos verificables y fuentes publicadas — Versión 0.3.0. Analiza la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico. Publicado como single page Jekyll en GitHub Pages (Fase 2 — firma PGP pendiente Fase 3).
+> Estudio descriptivo con trazabilidad de evidencia, intervalos verificables y fuentes publicadas — Versión 0.3.0. Analiza la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico. Publicado como single page Jekyll en GitHub Pages con firma PGP real (Fase 3 — clave RSA 4096, CI firma en cada deploy).
 
 Idioma: español. País: Argentina. Badges de evidencia: Observado, Derivado, Supuesto, Exploratorio. §0–§11 = núcleo empírico; anexos = fact-check, glosario de badges. La cita de cada número rastrea a una fuente archivada.
 
@@ -22,7 +22,7 @@ Idioma: español. País: Argentina. Badges de evidencia: Observado, Derivado, Su
 
 - [Argumentos contrarios](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-counterclaims.md): 10 objeciones formales evaluadas con rigor (pro-vacunación, anti-vacunación, metodológicas, políticas)
 - [Conclusiones](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/11-conclusions.md): 10 conclusiones con limitaciones explícitas y agenda de debate
-- [Sobre los autores](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-authors.md): Postura epistemológica, verificación PGP (placeholder Fase 2), contacto
+- [Sobre los autores](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-authors.md): Postura epistemológica, verificación PGP (clave RSA 4096 real, firma CI), contacto
 - [Nomenclatura](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-nomenclature.md): Glosario completo (RV, IS, NOA, NEA, GBA, Rotarix, SIVILA, DEIS, EMA, etc.)
 - [Revisiones](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-revisions.md): Historial de versiones del informe
 - [Fuentes primarias](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/12-sources.md): 30 fuentes con DOI o URL oficial, enlaces archived a web.archive.org

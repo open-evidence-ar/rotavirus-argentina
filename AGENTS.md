@@ -114,7 +114,7 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 | `validate_ci.py` | 20 controles de metodología (METH-001 a METH-020) |
 | `source-metadata.yml` | Metadata de proveniencia metodológica (PE + parent project) |
 | `llms.txt` | Índice LLM con enlaces raw a todas las secciones |
-| `public.pem` / `signature` / `integrity.txt` | Verificación criptográfica (placeholders Fase 2; reales Fase 3) |
+| `public.pem` / `signature` / `integrity.txt` | Verificación criptográfica (`public.pem` real RSA 4096; `signature` + `integrity.txt` generados por CI en cada deploy, no commiteados) |
 | `.github/workflows/deploy.yml` | CI: build Jekyll + firmar PGP + cargar GitHub Pages |
 | `.github/ISSUE_TEMPLATE/*.md` | Templates para evidencia / refutación / bug-report |
 | `README.md` | Resumen público del proyecto |

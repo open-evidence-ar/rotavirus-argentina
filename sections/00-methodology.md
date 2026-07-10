@@ -167,12 +167,12 @@ El propósito del informe es servir de base cuantitativa para un debate público
 - Redacción de documento inicial de hallazgos (`index.md`).
 - Compilación de todas las fuentes primarias y secundarias.
 
-## Estudios Fase 2 (estado: en curso — esta iteración)
+## Estudios Fase 2 (estado: completado)
 
 - Estructura Jekyll completa (config, layouts, includes).
 - División del documento monolítico en `sections/` (modelo PE).
 - Cajas de cálculo visibles (estilo PE).
-- Deploy a GitHub Pages (pendiente Fase 3).
-- Adición de firma PGP (pendiente Fase 3 — placeholders presentes actualmente).
+- Deploy a GitHub Pages (completado — activo en open-evidence-ar.github.io/rotavirus-argentina).
+- Firma PGP real implementada (clave RSA 4096, fingerprint `93604ADBAFBDBB56D60B37CA8585492BFC14A09A`); CI firma `index.html` en cada deploy.
 - `validate_ci.py` con 20 controles de metodología.
 - Política de fuentes con prioridad jerarquizada y trazabilidad.

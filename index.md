@@ -5,7 +5,7 @@ description: "Estudio descriptivo con trazabilidad de evidencia, intervalos veri
 ---
 
 <h1 class="title">Vacunación contra Rotavirus en Argentina: Análisis de Riesgo-Beneficio por Nivel Socioeconómico</h1>
-<p class="subtitle">Estudio descriptivo con trazabilidad de evidencia · Borrador v0.2 · Julio 2026</p>
+<p class="subtitle">Estudio descriptivo con trazabilidad de evidencia · v0.3.0 · Julio 2026</p>
 <hr>
 
 *[Descargar archivo completo](archive.zip) · [Clave pública PGP](public.pem) · [Integridad](integrity.txt) · [Índice LLM](llms.txt) · [LLM completo](llms-full.txt)*

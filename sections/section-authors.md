@@ -23,7 +23,7 @@ Estos tres elementos juntos permiten que cualquier persona verifique:
 - Que el contenido no fue alterado por terceros después de la firma.
 - Que la clave pública corresponde a la firma.
 
-> **Estado actual:** la clave PGP, la firma detached y el hash de integridad son **placeholders** durante la Fase 2 del proyecto (replicando la metodología del proyecto padre [State vs Family Evidence](https://github.com/open-evidence-ar/state-vs-family-evidence)). La generación real de la clave GPG se completará en Fase 3 antes del primer deploy firmado. Hasta entonces, la trazabilidad descansa en el historial de revisiones (`section-revisions.md`) y en la inmutabilidad de las versiones firmadas en git.
+> **Estado actual (Fase 3):** la clave PGP RSA 4096 es real y está publicada en [public.pem](public.pem) (fingerprint `93604ADBAFBDBB56D60B37CA8585492BFC14A09A`). La firma detached (`signature`) y el hash de integridad (`integrity.txt`) se generan automáticamente por GitHub Actions en cada deploy, firmados con el secreto `GPG_PRIVATE_KEY`; no se commitean al repositorio. Para verificar, ver las instrucciones en [README.md](https://github.com/open-evidence-ar/rotavirus-argentina#verificar-autor%C3%ADa). La trazabilidad histórica adicional descansa en el historial de revisiones (`section-revisions.md`) y en la inmutabilidad de las versiones firmadas en git.
 
 ### Cómo contactarnos
 

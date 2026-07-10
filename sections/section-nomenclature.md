@@ -66,7 +66,7 @@ Acrónimos y términos utilizados en este informe. Lectores no familiarizados co
 
 - **Taxonomía Project-Evidence (PE)**: estructura metodológica del proyecto homónimo [Project-Evidence](https://github.com/Project-Evidence/project-evidence.github.io) en la que se inspira este informe.
 - **Proyecto padre**: [State vs Family Evidence](https://github.com/open-evidence-ar/state-vs-family-evidence) — provee la plantilla estructural (Jekyll, secciones, política de fuentes, validación CI).
-- **Fases del proyecto**: Fase 1 (recopilación de borradores, completada), Fase 2 (transformación a Jekyll + evidencia trazable, en curso), Fase 3 (deploy firmado con PGP clave real — pendiente).
+- **Fases del proyecto**: Fase 1 (recopilación de borradores, completada), Fase 2 (transformación a Jekyll + evidencia trazable, completada), Fase 3 (deploy firmado con PGP clave real — parcial: clave y firma CI activas; pendiente validación peer-review de todos los números y desagregación sub-provincial).
 - **Verificación criptográfica**: mecanismo para que el lector compruebe que el documento fue publicado por los autores declarados y no fue alterado. Implementado vía PGP (clave pública + firma detached) y SHA256.
 
 ### Términos técnicos puntuales
