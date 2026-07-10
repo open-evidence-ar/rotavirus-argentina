@@ -85,7 +85,7 @@ The deploy workflow runs the following IN ORDER:
 7. `bundle exec jekyll build` — site build
 8. `sha256sum _site/index.html > _site/integrity.txt` — integrity
 9. **Sign build** (only if `GPG_PRIVATE_KEY` env var present) — re-imports key, signs `_site/index.html`, moves `_site/index.html.asc` to `_site/signature`
-10. **Generate archive** — `_site/archive.zip` containing `public.pem`, `integrity.txt`, `signature`, `llms.txt`
+10. **Generate archive** — `_site/archive.zip` containing `public.pem`, `integrity.txt`, `signature`, `llms-full.txt` (copiado como `rotavirus-argentina.md`)
 11. `actions/upload-pages-artifact@v3` — upload
 12. `actions/deploy-pages@v4` — deploy
 

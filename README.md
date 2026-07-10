@@ -63,6 +63,7 @@ La firma PGP detached se regenera automáticamente en cada deploy mediante GitHu
 | `index.md` | Página única que incluye todas las secciones via `{% include_relative %}` |
 | `_config.yml` | Configuración Jekyll |
 | `llms.txt` | Índice LLM con enlaces raw a todas las secciones ([llmstxt.org](https://llmstxt.org)) |
+| `llms-full.txt` | Texto completo del informe concatenado (todas las secciones), generado automáticamente por `_plugins/llms_full_generator.rb` en cada `jekyll build` |
 | `validate_ci.py` | Validator de cumplimiento metodológico (20 controles METH) |
 | `scripts/validate_calculations.py` | Reproducibilidad numérica (14 casos — bloquea deploy si regresión) |
 | `scripts/check_sources.py` | Verificación de accesibilidad de URLs de fuentes (best-effort) |
