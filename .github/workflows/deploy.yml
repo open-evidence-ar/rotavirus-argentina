@@ -62,8 +62,8 @@ jobs:
         run: |
           cd _site
           test -f public.pem || { echo "Missing public.pem"; exit 1; }
-          cp llms.txt rotavirus-argentina.md 2>/dev/null || true
-          zip -r ../archive.zip rotavirus-argentina.md integrity.txt signature public.pem 2>/dev/null || zip -r ../archive.zip integrity.txt signature public.pem
+          cp llms-full.txt rotavirus-argentina.md
+          zip -r ../archive.zip rotavirus-argentina.md integrity.txt signature public.pem
           mv ../archive.zip .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

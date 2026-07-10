@@ -19,7 +19,7 @@
 | ¿Exceso IS post-comercialización EE.UU.? | ~5,3 / 100.000 | Vigilancia PRISM/VSD | 5,3 / 100.000 (1 en 19.000) |
 | ¿Exceso IS promedio OMS global? | — | — | 5,6 / 100.000 (1 en 18.000) |
 | ¿Exceso IS mínimo (Canadá)? | 0,9 / 100.000 | — | 1 en 111.000 |
-| ¿Riesgo cirugía por IS atribuible a vacuna? | 53% de IS | Aplicado a exceso IS | 1,6–3 / 100.000 (1 en 33.000–63.000) |
+| ¿Riesgo cirugía por IS atribuible a vacuna? | ~90% de IS (LATAM, [Patel 2011](https://doi.org/10.1056/NEJMoa1012952)) | Aplicado a exceso IS | 2,5–5 / 100.000 (1 en 20.000–37.000) |
 
 ### B.3 — Denominadores de riesgo de muerte por rotavirus
 

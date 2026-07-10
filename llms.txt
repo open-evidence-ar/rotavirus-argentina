@@ -1,6 +1,6 @@
 # Vacunación contra Rotavirus en Argentina: Análisis de Riesgo-Beneficio por Nivel Socioeconómico
 
-> Estudio descriptivo con trazabilidad de evidencia, intervalos verificables y fuentes publicadas — Versión 0.2.0. Analiza la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico. Publicado como single page Jekyll en GitHub Pages (Fase 2 — firma PGP pendiente Fase 3).
+> Estudio descriptivo con trazabilidad de evidencia, intervalos verificables y fuentes publicadas — Versión 0.3.0. Analiza la asimetría riesgo-beneficio de la vacunación universal contra rotavirus (Rotarix®) en Argentina, desagregada por nivel socioeconómico. Publicado como single page Jekyll en GitHub Pages (Fase 2 — firma PGP pendiente Fase 3).
 
 Idioma: español. País: Argentina. Badges de evidencia: Observado, Derivado, Supuesto, Exploratorio. §0–§11 = núcleo empírico; anexos = fact-check, glosario de badges. La cita de cada número rastrea a una fuente archivada.
 

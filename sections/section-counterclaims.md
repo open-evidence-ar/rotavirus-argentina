@@ -137,7 +137,7 @@ El §00 Resumen Ejecutivo del informe declara hallazgos positivos (6 puntos): qu
 
 **Origen del argumento:** Metodológico — auditoría.
 
-**Evaluación:** Invitamos la auditoría abierta. Cada número del informe lleva subadge de categoría. La taxonomía (`<span class="badge badge-observado">`) está documentada en §00-methodology. La traducción visual a colores se inspecciona en cualquier tabla del informe renderizado. Las cadenas de cálculo completo (e.g., 3 / 100.000 × 0,53 = 1,6 / 100.000 para cirugía inducida) están propagadas §4.5.
+**Evaluación:** Invitamos la auditoría abierta. Cada número del informe lleva subadge de categoría. La taxonomía (`<span class="badge badge-observado">`) está documentada en §00-methodology. La traducción visual a colores se inspecciona en cualquier tabla del informe renderizado. Las cadenas de cálculo completo (e.g., 3 × 0,9 = 2,7 / 100.000 para cirugía inducida, usando fracción quirúrgica LATAM, [Patel 2011](https://doi.org/10.1056/NEJMoa1012952)) están propagadas §5.8.
 
 **Conclusión:** La auditoría es bienvenida. El informe presenta cadenas de cálculo reproducibles; las categorías se documentan en la política de fuentes. La transparencia está construida dentro del informe (sin recursos externos opacos).
 

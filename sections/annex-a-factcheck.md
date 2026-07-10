@@ -20,7 +20,7 @@
 | 15 | Exceso IS Canadá | 0,9 / 100.000 | — | <span class="badge badge-observado">◎ Observado</span> | [WHO 2021](https://www.who.int/publications/i/item/WHO-WER9628) |
 | 16 | IS que requieren cirugía (GSK Review 2022) | 294/862 (34%) | Casos confirmados | <span class="badge badge-supuesto">△ Supuesto</span> | [EMA EPAR](https://www.ema.europa.eu/en/documents/product-information/rotarix-epar-product-information_en.pdf) |
 | 17 | Mortalidad por IS | ~3% | — | <span class="badge badge-observado">◎ Observado</span> | [Sáez-Llorens 2013](https://doi.org/10.1186/1471-230X-13-95) |
-| 18 | Riesgo cirugía atribuible (rango operacional) | 1 en 33.000 – 1 en 63.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | 3–5,6 × 53% por 100.000 |
+| 18 | Riesgo cirugía atribuible (rango operacional) | 1 en 20.000 – 1 en 37.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | 3–5,6 × ~90% (LATAM, Patel 2011) por 100.000 |
 | 19 | Riesgo muerte RV (pobre, NOA/NEA) | ~1 en 10.000–15.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | Ajuste de gradiente §6 |
 | 20 | Riesgo muerte RV (GBA medio-alto) | ~1 en 100.000+ | — | <span class="badge badge-supuesto">△ Supuesto</span> | Ajuste de gradiente §6 |
 | 21 | Balance neto pobre (norte) | +4 a +8 / 100.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | §7.2 |
@@ -40,7 +40,7 @@
 | 35 | Costo hospitalización por RV (Gómez 1998) | ~US$ 1.200/día | Histórico 1998 | <span class="badge badge-observado">◎ Observado</span> | [Gómez 1998](https://doi.org/10.1097/00006454-200209000-00012) |
 | 36 | Cobertura necesaria para impacto significativo | >80% | — | <span class="badge badge-observado">◎ Observado</span> | [WHO 2021](https://www.who.int/publications/i/item/WHO-WER9628) |
 | 37 | Rango operacional exceso IS (OMS) | 1 en 18.000–33.000 | — | <span class="badge badge-observado">◎ Observado</span> | [WHO 2021](https://www.who.int/publications/i/item/WHO-WER9628) |
-| 38 | Rango operacional cirugía inducida | 1 en 33.000–63.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | §5.5 |
+| 38 | Rango operacional cirugía inducida | 1 en 20.000–37.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | §5.8 |
 | 39 | Resolución 1027/2014 incorporación vacuna RV Calendario | Sí, 14-jul-2014 | — | <span class="badge badge-observado">◎ Observado</span> | [argentina.gob.ar/normativa/nacional/232068](https://www.argentina.gob.ar/normativa/nacional/232068/texto) |
 | 40 | Nacidos vivos anuales Argentina | ~700.000 | — | <span class="badge badge-observado">◎ Observado</span> | [INDEC Proyecciones](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-24) |
 | 41 | Tasa de natalidad Argentina (World Bank) | Cruda birth rate | — | <span class="badge badge-observado">◎ Observado</span> | [FRED SPDYNCBRTINARG](https://fred.stlouisfed.org/series/SPDYNCBRTINARG) |

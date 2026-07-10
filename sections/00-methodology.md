@@ -11,9 +11,9 @@ La relación riesgo-beneficio de la vacunación contra rotavirus **no es uniform
 
 | Indicador | Población de alto riesgo (NOA/NEA, bajo SES) | Población de bajo riesgo (GBA, nivel medio-alto) |
 |---|---|---|
-| Riesgo de muerte por rotavirus (1er año) | ~1 en 10.000–15.000 | ~1 en 100.000+ |
+| Riesgo de muerte por rotavirus (1er año) | ~1 en 10.000–15.000 | ~1 en 330.000–1.000.000 (proxy) |
 | Riesgo atribuible de intususcepción por vacuna | ~1 en 18.000–33.000 | ~1 en 18.000–33.000 |
-| **Relación riesgo-beneficio (muerte evitada vs. cirugía inducida)** | **<span class="badge badge-derivado" title="Beneficio supera al riesgo">Favorable</span>** | **<span class="badge badge-derivado" title="Riesgo supera al beneficio">Desfavorable</span>** |
+| **Razón beneficio-riesgo (muerte:muerte / morbilidad)** | **<span class="badge badge-derivado" title="Favorable (~70–300:1)">Favorable</span>** | **<span class="badge badge-derivado" title="Paridad en muerte (~1–3:1); desfavorable en morbilidad">Paridad (muerte) / Desfavorable (morbilidad)</span>** |
 
 ### Qué demuestra, qué sugiere y qué no puede confirmarse
 
@@ -31,25 +31,26 @@ El estudio es **descriptivo y generador de hipótesis**. Utiliza supuestos expl�
 
 | Indicador | Pobre (NOA/NEA) | Promedio nacional | Medio-alto (GBA) |
 |---|---|---|---|
-| Riesgo de muerte por RV (1er año) | ~1 en 10.000–15.000 | ~1 en 33.000 | ~1 en 100.000+ |
+| Riesgo de muerte por RV (1er año) | ~1 en 10.000–15.000 | ~1 en 23.000–39.000 | ~1 en 330.000–1.000.000 (proxy) |
 | Riesgo de intususcepción atribuible a vacuna | ~1 en 18.000–33.000 | ~1 en 18.000–33.000 | ~1 en 18.000–33.000 |
-| **Balance** | **<span class="badge badge-derivado" title="Beneficio > riesgo">Favorable</span>** | **Incierto / Marginal** | **<span class="badge badge-derivado" title="Riesgo > beneficio">Desfavorable</span>** |
+| **Balance (muerte:muerte)** | **<span class="badge badge-derivado" title="~70–300:1">Favorable</span>** | **Incierto / Marginal** | **<span class="badge badge-derivado" title="~1–3:1 (paridad)">Paridad</span>** |
+| **Balance (morbilidad DALY)** | **Favorable** | **Marginal** | **Desfavorable** |
 
 ### Tabla central — Impacto poblacional por 100.000 niños vacunados
 
 **Población pobre (norte):**
 
-| | Muertes evitadas | IS atribuibles | Cirugías inducidas |
-|---|---|---|---|
-| Por 100.000 | ~7–10 | ~3–5,6 | ~1,6–3 |
-| **Balance neto** | **+4 a +8 vidas salvadas netas** | | |
+| | Muertes evitadas | IS atribuibles | Cirugías inducidas | IS fatales | Razón muerte:muerte |
+|---|---|---|---|---|---|
+| Por 100.000 | ~7–10 | ~3–5,6 | ~2,5–5 | ~0,03–0,28 | **~25–330 : 1 (favorable)** |
 
 **Población medio-alto (Buenos Aires):**
 
-| | Muertes evitadas | IS atribuibles | Cirugías inducidas |
-|---|---|---|---|
-| Por 100.000 | ~1 | ~3–5,6 | ~1,6–3 |
-| **Balance neto** | **-0,6 a -2 daño neto (más cirugías que muertes evitadas)** | | |
+| | Muertes evitadas | IS atribuibles | Cirugías inducidas | IS fatales | Razón muerte:muerte |
+|---|---|---|---|---|---|
+| Por 100.000 | ~0,1–0,3 | ~3–5,6 | ~2,5–5 | ~0,03–0,28 | **~0,4–10 : 1 (paridad a favorable)** |
+
+> En morbilidad (DALY) el balance para GBA es desfavorable: cirugías inducidas (2,5–5/100k) > muertes evitadas (0,1–0,3/100k). No se restan cirugías de muertes; ver §7.2.
 
 ### Series de referencia
 
@@ -60,7 +61,7 @@ El estudio es **descriptivo y generador de hipótesis**. Utiliza supuestos expl�
 
 Este análisis describe con datos publicados lo siguiente:
 
-1. **La vacunación universal contra rotavirus tiene un balance riesgo-beneficio que varía por población.** No es uniforme. Para niños de bajo recursos en el norte argentino, la vacuna salva vidas de forma neta. Para niños sanos con acceso inmediato a pediatría en zonas urbanas de nivel socioeconómico medio-alto, el riesgo de cirugía por intususcepción atribuible a la vacuna **excede** al riesgo de muerte por la enfermedad (§7.2).
+1. **La vacunación universal contra rotavirus tiene un balance riesgo-beneficio que varía por población.** No es uniforme. Para niños de bajo recursos en el norte argentino, la vacuna salva vidas de forma neta (razón muerte:muerte ~70–300:1). Para niños sanos con acceso inmediato a pediatría en zonas urbanas de nivel socioeconómico medio-alto, la razón muerte-a-muerte abarca ~0,4–10:1 (paridad a favorable, ver §7.2.4) y el balance por morbilidad (DALY) es desfavorable: las cirugías inducidas por intususcepción superan en frecuencia a las muertes evitadas (§7.2).
 
 2. **La mortalidad por rotavirus ya estaba estructuralmente reducida antes de la vacuna.** El acceso a SRO/TRO y a atención pediátrica temprana redujo la letalidad de ~10% a <1% — una reducción de 3–14× — sin ninguna vacuna (Munos 2010). En países desarrollados, la mortalidad por diarrea infantil cayó >90% entre 1960 y 2000 por SRO + saneamiento, antes de que existiera Rotarix (Troeger 2018).
 
@@ -84,7 +85,7 @@ Este análisis describe con datos publicados lo siguiente:
 | Nivel | Significado | Ejemplos en este informe |
 |---|---|---|
 | <span class="badge badge-observado" title="Dato directo de literatura revisada por pares u organismo oficial">◎ Observado</span> | Dato directo de literatura revisada por pares u organismo oficial | 30–50 muertes/año (Degiuseppe 2017); 33,3–36,9% positividad en <1 año (Degiuseppe 2013) |
-| <span class="badge badge-derivado" title="Aritmética reproducible sobre observados">◇ Derivado</span> | Aritmética reproducible sobre datos observados | ~1 en 4.169 (muerte antes 3er año) = 8/100.000 anualizado (Gómez 1998); 1,6–3 cirugías inducidas por 100.000 |
+| <span class="badge badge-derivado" title="Aritmética reproducible sobre observados">◇ Derivado</span> | Aritmética reproducible sobre datos observados | ~1 en 4.169 (muerte antes 3er año) = 8/100.000 anualizado (Gómez 1998); 2,5–5 cirugías inducidas por 100.000 |
 | <span class="badge badge-supuesto" title="Parámetro sin fuente directa">△ Supuesto</span> | Parámetro sin fuente directa | Descomposición homogénea del riesgo entre quintiles como proxy de SES |
 | <span class="badge badge-exploratorio" title="Comparación entre unidades débiles">○ Exploratorio</span> | Comparación con unidades débiles para exploración de orden de magnitud | Comparación directa GBA vs. NOA cuando los datos sólo disponibles son globales |
 

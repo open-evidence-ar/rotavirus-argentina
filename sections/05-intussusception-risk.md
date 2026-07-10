@@ -41,9 +41,10 @@ El [prospecto del fabricante (FDA Prescribing Information)](https://www.fda.gov/
 |---|---|---|---|
 | Casos confirmados reportados globalmente | 862 | GSK Review 2022 (citado en EMA EPAR) | <span class="badge badge-supuesto">Supuesto</span> |
 | Requirieron hospitalización | 557 (64,6%) | GSK Review 2022 | <span class="badge badge-supuesto">Supuesto</span> |
-| Requirieron cirugía | 294 (53% de hospitalizados / 34% del total) | GSK Review 2022 | <span class="badge badge-supuesto">Supuesto</span> |
+| Requirieron cirugía (ensayo GSK) | 294 (53% de hospitalizados / 34% del total) | GSK Review 2022 | <span class="badge badge-supuesto">Supuesto</span> |
+| Requirieron cirugía (LATAM real) | ~85–95% de los casos de IS | [Patel 2011](https://doi.org/10.1056/NEJMoa1012952) (México 87%, Brasil 95% de IS hospitalizadas; en LATAM casi toda IS se hospitaliza) | <span class="badge badge-derivado">Derivado</span> |
 | Tasa de recuperación completa | 88% | [Sáez-Llorens 2013](https://doi.org/10.1186/1471-230X-13-95) | <span class="badge badge-observado">Observado</span> |
-| Mortalidad por intususcepción | ~3% | [Sáez-Llorens 2013](https://doi.org/10.1186/1471-230X-13-95) | <span class="badge badge-observado">Observado</span> |
+| Mortalidad por intususcepción (LATAM) | 1–5% (México 1%, Brasil 5%; Sáez-Llorens 2013 reporta 3% pre-vacuna) | [Patel 2011](https://doi.org/10.1056/NEJMoa1012952); [Sáez-Llorens 2013](https://doi.org/10.1186/1471-230X-13-95) | <span class="badge badge-observado">Observado</span> |
 
 ### 5.5 Por qué el ensayo clínico no detectó la señal post-comercialización
 
@@ -111,27 +112,27 @@ Programas en África vacunan a 6, 10, 14 semanas — antes del peak natural de I
 
 ### 5.8 Riesgo de cirugía atribuible a la vacuna
 
-Asumiendo que de cada 100.000 vacunados, entre 3.000 y 5.600 experimentan intususcepción atribuible, de los cuales el 53% requieren cirugía:
+Asumiendo que de cada 100.000 vacunados, entre 3.000 y 5.600 experimentan intususcepción atribuible, y aplicando la fracción quirúrgica de LATAM (~85–95%, [Patel 2011](https://doi.org/10.1056/NEJMoa1012952): México 87%, Brasil 95% de las IS hospitalizadas; en LATAM prácticamente toda IS se hospitaliza):
 
 | | Estimación baja | Estimación alta |
 |---|---|---|
 | Intususcepción atribuible por 100.000 | 3 | 5,6 |
-| De esos, requieren cirugía (53%) | **1,6 por 100.000** | **3 por 100.000** |
-| **Como razón** | **1 en 63.000** | **1 en 33.000** |
+| De esos, requieren cirugía (~90%) | **2,7 por 100.000** | **5,0 por 100.000** |
+| **Como razón** | **1 en 37.000** | **1 en 20.000** |
 
 <div class="calculo-box">
-Estimación baja = 3 × 0,53 = 1,59 por 100.000 ≈ 1 en 63.000
-Estimación alta = 5,6 × 0,53 = 2,97 por 100.000 ≈ 1 en 33.000
+Estimación baja = 3 × 0,90 = 2,7 por 100.000 ≈ 1 en 37.000
+Estimación alta = 5,6 × 0,90 = 5,0 por 100.000 ≈ 1 en 20.000
 </div>
 
 ### 5.9 Resumen del rango de riesgo atribuible de cirugía
 
 | Estimación | Riesgo por 100.000 | Razón (1 en X) |
 |---|---|---|
-| Permisiva (límite superior) | 3 por 100.000 | 1 en 33.000 |
-| Central (rango OMS) | ~2–3 por 100.000 | 1 en 33.000–50.000 |
-| Conservadora (límite inferior) | 1,6 por 100.000 | 1 en 63.000 |
+| Permisiva (límite superior) | 5 por 100.000 | 1 en 20.000 |
+| Central (rango LATAM) | ~3–4 por 100.000 | 1 en 25.000–33.000 |
+| Conservadora (límite inferior) | 2,7 por 100.000 | 1 en 37.000 |
 
-> **Conclusión para este informe:** el rango operacional del riesgo atribuible de cirugía es **~1 en 33.000 a 1 en 63.000 niños vacunados**. Para los análisis poblacionales posteriores, este rango se compara con el riesgo de muerte por el sub-grupo específico de riesgo de muerte por rotavirus.
+> **Conclusión para este informe:** el rango operacional del riesgo atribuible de cirugía en Argentina (usando fracción quirúrgica LATAM) es **~1 en 20.000 a 1 en 37.000 niños vacunados**. Para los análisis poblacionales posteriores, este rango se compara con el riesgo de muerte por el sub-grupo específico de riesgo de muerte por rotavirus.
 
 <small>Ver: [WHO 2021 Position Paper](https://www.who.int/publications/i/item/WHO-WER9628), [FDA PI](https://www.fda.gov/media/75726/download), [EMA EPAR](https://www.ema.europa.eu/en/documents/product-information/rotarix-epar-product-information_en.pdf), [Sáez-Llorens 2013](https://doi.org/10.1186/1471-230X-13-95), [Bok et al. 2001](https://doi.org/10.1002/jmv.2020) (vigilancia argentina pre-vacunación).</small>
