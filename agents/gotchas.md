@@ -82,7 +82,7 @@ Or use `from __future__ import annotations`.
 
 **Fix:**
 ```powershell
-$PAT = (Get-Content .env | Select-String "^GITHUB_PAT=").Line -replace "GITHUB_PAT=", ""
+$PAT = (Get-Content .env | Select-String "^PAT=").Line -replace "PAT=", ""
 git remote set-url origin "https://open-evidence-ar:$PAT@github.com/open-evidence-ar/rotavirus-argentina.git"
 git push origin main
 git remote set-url origin "https://github.com/open-evidence-ar/rotavirus-argentina.git"
@@ -121,7 +121,7 @@ Always restore the URL without the PAT after push.
 **Fix:** Run manually if testing locally:
 ```powershell
 cd _site
-Compress-Archive -Path public.pem, integrity.txt, signature, llms.txt -DestinationPath archive.zip
+Compress-Archive -Path public.pem, integrity.txt, signature, llms-full.txt -DestinationPath archive.zip
 ```
 
 ---

@@ -7,7 +7,7 @@
 |---|---|---|
 | <span class="badge badge-observado">◎ Observado</span> | Observado | Dato directo de literatura revisada por pares (peer-reviewed, con DOI) o de un informe oficial publicado (resolución ministerial, position paper OMS, prospecto regulatorio FDA/EMA). |
 | <span class="badge badge-derivado">◇ Derivado</span> | Derivado | Aritmética reproducible sobre datos observados. La cadena de cálculo está reproducida en el cuerpo del informe. La reproducción es independiente del lector: dados los números observados, el resultado es determinista. |
-| <span class="badge badge-supuesto">△ Supuesto</span> | Supuesto | Parámetro sin fuente directa verificable, etiquetado con su rango de incertidumbre. Se distingue explícitamente del dato observado; no se presenta como hecho. Ejemplo: "Riesgo medio-alto GBA = ~1 en 100.000+" se infiere aplicando gradientes publicados pero no se observa directamente en una fuente Argentina publicada. |
+| <span class="badge badge-supuesto">△ Supuesto</span> | Supuesto | Parámetro sin fuente directa verificable, etiquetado con su rango de incertidumbre. Se distingue explícitamente del dato observado; no se presenta como hecho. Ejemplo: "Riesgo medio-alto GBA = ~1 en 330.000–1.000.000 (proxy)" se infiere aplicando gradientes publicados (GBD/Troeger 2018 + Degiuseppe 2013) pero no se observa directamente en una fuente Argentina publicada. |
 | <span class="badge badge-exploratorio">○ Exploratorio</span> | Exploratorio | Comparación entre unidades débiles para exploración de órdenes de magnitud. Útil para motivar hipótesis pero no para establecer afirmaciones. El balance neto poblacional medio-alto en Argentina se aproxima con elementos exploratorios (gradientes imported comparados con EVAS en México y EE.UU.). |
 
 ### B.2 — Denominadores de riesgo de intususcepción (IS)
@@ -29,7 +29,7 @@
 | ¿Riesgo estimado en <1 año (nacional)? | 18–30 (60% de <5) | 700.000 | 2,6–4,3 / 100.000 (1 en 23.000–39.000) | ◇ Derivado |
 | ¿Riesgo anualizado 0–3 años (Gómez 1998)? | — | 4.169 (riesgo acumulado) | ~8 / 100.000/año (1 en 12.500) | ◎ Observado original (Gómez), ◇ Derivado anualización |
 | ¿Riesgo estimado muerte por RV en NOA/NEA (pobre)? | — | — | ~7–10 / 100.000 (1 en 10.000–15.000) | ◇ Derivado (gradiente aplicado) |
-| ¿Riesgo estimado muerte por RV en GBA medio-alto? | — | — | ~1 / 100.000+ (1 en 100.000+) | △ Supuesto (gradiente aplicado sobre estimación; no observado directamente) |
+| ¿Riesgo estimado muerte por RV en GBA medio-alto? | — | — | ~0,1–0,3 / 100.000 (1 en 330.000–1.000.000; proxy) | △ Supuesto (gradiente aplicado sobre estimación regional; no observado directamente) |
 
 ### B.4 — Términos abreviados del informe
 
@@ -59,4 +59,4 @@ Cuando aparece una cota "**~1 en X**" en el texto, debe interpretarse como **est
 
 ---
 
-*Última revisión: 4 julio 2026. Versión 0.2.0.*
+*Última revisión: 10 julio 2026. Versión 0.3.0.*

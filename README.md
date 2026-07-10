@@ -10,10 +10,10 @@
 
 | Indicador | Pobre (NOA/NEA) | Promedio nacional | Medio-alto (GBA) |
 |---|---|---|---|
-| Riesgo de muerte por RV (1er año) | ~1 en 10.000–15.000 | ~1 en 23.000–39.000 | ~1 en 100.000+ |
+| Riesgo de muerte por RV (1er año) | ~1 en 10.000–15.000 | ~1 en 23.000–39.000 | ~1 en 330.000–1.000.000 (proxy) |
 | Riesgo atribuible de IS post-vacuna | ~1 en 18.000–33.000 | ~1 en 18.000–33.000 | ~1 en 18.000–33.000 |
-| Riesgo de cirugía inducida | ~1 en 33.000–63.000 | ~1 en 33.000–63.000 | ~1 en 33.000–63.000 |
-| **Balance neto por 100.000 vacunados** | **+4 a +8 vidas salvadas** | Marginal | **−0,6 a −2 cirugías en exceso** |
+| Riesgo de cirugía inducida | ~1 en 20.000–37.000 | ~1 en 20.000–37.000 | ~1 en 20.000–37.000 |
+| **Balance por 100.000 vacunados** | **~7–10 muertes evitadas** (razón muerte:muerte ~25–330:1) | Marginal | **~0,1–0,3 muertes evitadas vs ~2,5–5 cirugías inducidas** (razón ~0,4–10:1; desfavorable por morbilidad/DALY) |
 
 Para niños de bajos recursos en provincias del norte, la vacunación salva vidas: el riesgo de muerte por la enfermedad supera claramente al riesgo de intususcepción atribuible. Para niños sanos de nivel socioeconómico medio-alto con acceso inmediato a atención pediátrica, el balance individual poblacional se invierte — el riesgo de cirugía inducida excede al riesgo de muerte por la enfermedad. **El estudio documenta ambas asimetrías con trazabilidad de fuentes y propone que el debate público se base en datos, no en consensos administrativos**.
 

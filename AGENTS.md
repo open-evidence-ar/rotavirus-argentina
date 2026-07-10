@@ -81,8 +81,8 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 - [x] GitHub Pages deploy workflow + issue/PR templates
 - [x] Source URL discovery + archive web.archive.org wildcards
 - [x] Auditoría de DOIs con subagentes (grounding-1, grounding-2)
-- [ ] First deploy to GitHub Pages (pending git push)
-- [ ] Continuous integration tests confirmed green
+- [x] First deploy to GitHub Pages (live; GPG_PRIVATE_KEY secret set, Actions CI building)
+- [x] Continuous integration tests confirmed green (validate_calculations 14/14 PASS)
 
 ## 7. Phase 3 — In Progress (v0.3.0)
 
@@ -108,12 +108,17 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 | `_includes/sourcing-policy.md` | Política de fuentes (12 cláusulas jerarquizadas) |
 | `_includes/tags/*.html` | 8 badges HTML (Observado / Derivado / Supuesto / Exploratorio / etc.) |
 | `sections/` | 19 archivos .md: §00-methodology → §11-conclusions + 3 secciones estructurales + 2 anexos |
+| `_plugins/llms_full_generator.rb` | Plugin Jekyll — genera `_site/llms-full.txt` (concatena las 19 secciones) en cada build |
+| `llms.txt` | Índice LLM con enlaces raw a todas las secciones |
+| `llms-full.txt` | Texto completo concatenado para consumo LLM (generado por el plugin; servido en `_site/llms-full.txt`) |
 | `assets/css/style.scss` | Hoja de estilos (badges, calculo-box, nav responsive, print) |
 | `evidence/` | Manifiestos y referencias (sin PDFs crudos — sólo referencias) |
+| `agents/` | 7 archivos de referencia operativa (comandos diarios, gotchas, setup, metodología, catálogo de scripts, mapa de archivos, validate-cheatsheet) |
 | `AGENTS.md` | Este archivo — operating manual |
-| `validate_ci.py` | 20 controles de metodología (METH-001 a METH-020) |
+| `validate_ci.py` | 20 controles de metodología (METH-001 a METH-020; actual 17 PASS / 3 WARN / 0 FAIL) |
+| `scripts/validate_calculations.py` | Reproducibilidad numérica (14 casos — bloquea deploy si regresión) |
+| `scripts/check_sources.py` | Accesibilidad de URLs de fuentes (38 fuentes, best-effort) |
 | `source-metadata.yml` | Metadata de proveniencia metodológica (PE + parent project) |
-| `llms.txt` | Índice LLM con enlaces raw a todas las secciones |
 | `public.pem` / `signature` / `integrity.txt` | Verificación criptográfica (`public.pem` real RSA 4096; `signature` + `integrity.txt` generados por CI en cada deploy, no commiteados) |
 | `.github/workflows/deploy.yml` | CI: build Jekyll + firmar PGP + cargar GitHub Pages |
 | `.github/ISSUE_TEMPLATE/*.md` | Templates para evidencia / refutación / bug-report |
@@ -128,7 +133,7 @@ This analysis was conducted by tracing published peer-reviewed literature and of
 
 ---
 
-## 10. Ethics Note (v0.2.2)
+## 10. Ethics Note
 
 This study describes statistical asymmetries in risk-benefit across populations. Its position is **declarative and evidence-based**, not defensive.
 

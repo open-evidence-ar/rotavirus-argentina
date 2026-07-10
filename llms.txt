@@ -11,9 +11,9 @@ Idioma: español. País: Argentina. Badges de evidencia: Observado, Derivado, Su
 - [Marco temporal](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/02-vaccine-timeline.md): Programa de vacunación 2015, Rotarix G1P[8], esquema 2+4 meses, cobertura 61–80%
 - [Carga de enfermedad pre-vacunación](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/03-disease-burden.md): 30–50 muertes/año, 150–200 mil casos/año, ~15.000 hospitalizaciones/año, cohorte Avellaneda 1983–1986, Gómez 1998 nacional
 - [Riesgo absoluto de muerte](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/04-death-risk.md): Cálculo nacional ~1 en 23.000–39.000 (<1 año), ~1 en 12.500 anualizado (Gómez 1998)
-- [Riesgo de intususcepción por vacuna](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/05-intussusception-risk.md): Ensayo clínico 63.225 (RR 0,85 sin aumento), post-comercialización 1 en 18.000 (OMS) a 1 en 111.000 (Canadá), riesgo cirugía 1 en 33.000–63.000
+- [Riesgo de intususcepción por vacuna](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/05-intussusception-risk.md): Ensayo clínico 63.225 (RR 0,85 sin aumento), post-comercialización 1 en 18.000 (OMS) a 1 en 111.000 (Canadá), riesgo cirugía ~1 en 20.000–37.000 (fracción quirúrgica LATAM ~85–95%)
 - [Gradiente socioeconómico](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/06-ses-gradient.md): NOA vs nacional 2,7×; NOA vs GBA 5–15×; cohorte Córdoba 2,3 episodios/niño/año; 82% de muertes globales en países pobres
-- [Riesgo-beneficio desagregado](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/07-risk-benefit.md): Pobre +4 a +8 vidas/100.000; medio-alto −0,6 a −2 daño neto/100.000; asimetría de orden 5–10×
+- [Riesgo-beneficio desagregado](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/07-risk-benefit.md): Pobre ~7–10 muertes evitadas/100.000 (razón muerte:muerte ~25–330:1); GBA medio-alto ~0,1–0,3 muertes evitadas vs ~2,5–5 cirugías inducidas (razón ~0,4–10:1; desfavorable por morbilidad/DALY); asimetría de orden 5–10×
 - [Impacto post-vacunación](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/08-post-vaccination.md): Reducción casos 59,4% en <1 año (García Martí 2022), 233.947 casos evitados 2015–2018
 - [Costo-beneficio](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/09-cost-benefit.md): Programa cost-saving en agregado nacional (San Luis: >4,5M pesos ahorrados), costo dosis US$ 5–10 público
 - [Paradoja de equidad](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/10-equity-paradox.md): Niños que más necesitan vacuna son los que menos la reciben; cobertura pro-rico documentada en países LMIC
@@ -25,7 +25,7 @@ Idioma: español. País: Argentina. Badges de evidencia: Observado, Derivado, Su
 - [Sobre los autores](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-authors.md): Postura epistemológica, verificación PGP (clave RSA 4096 real, firma CI), contacto
 - [Nomenclatura](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-nomenclature.md): Glosario completo (RV, IS, NOA, NEA, GBA, Rotarix, SIVILA, DEIS, EMA, etc.)
 - [Revisiones](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/section-revisions.md): Historial de versiones del informe
-- [Fuentes primarias](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/12-sources.md): 30 fuentes con DOI o URL oficial, enlaces archived a web.archive.org
+- [Fuentes primarias](https://raw.githubusercontent.com/open-evidence-ar/rotavirus-argentina/main/sections/12-sources.md): 44 fuentes con DOI o URL oficial, enlaces archived a web.archive.org
 
 ## Anexos
 

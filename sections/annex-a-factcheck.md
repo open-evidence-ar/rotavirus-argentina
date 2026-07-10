@@ -22,8 +22,8 @@
 | 17 | Mortalidad por IS | ~3% | — | <span class="badge badge-observado">◎ Observado</span> | [Sáez-Llorens 2013](https://doi.org/10.1186/1471-230X-13-95) |
 | 18 | Riesgo cirugía atribuible (rango operacional) | 1 en 20.000 – 1 en 37.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | 3–5,6 × ~90% (LATAM, Patel 2011) por 100.000 |
 | 19 | Riesgo muerte RV (pobre, NOA/NEA) | ~1 en 10.000–15.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | Ajuste de gradiente §6 |
-| 20 | Riesgo muerte RV (GBA medio-alto) | ~1 en 100.000+ | — | <span class="badge badge-supuesto">△ Supuesto</span> | Ajuste de gradiente §6 |
-| 21 | Balance neto pobre (norte) | +4 a +8 / 100.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | §7.2 |
+| 20 | Riesgo muerte RV (GBA medio-alto) | ~1 en 330.000–1.000.000 (proxy) | — | <span class="badge badge-supuesto">△ Supuesto</span> | Proxy GBD/Troeger 2018 + Degiuseppe 2013 (§7.2 nota) |
+| 21 | Balance pobre (norte) | ~7–10 muertes evitadas / 100.000 (razón muerte:muerte ~25–330:1) | — | <span class="badge badge-derivado">◇ Derivado</span> | §7.2 |
 | 22 | Balance neto medio-alto (GBA) | −0,6 a −2 / 100.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | §7.2 |
 | 23 | Cobertura 2015 | 61% | — | <span class="badge badge-observado">◎ Observado</span> | [García Martí 2022](https://doi.org/10.1007/s40121-022-00709-6) |
 | 24 | Cobertura 2018 | 80% | — | <span class="badge badge-observado">◎ Observado</span> | [García Martí 2022](https://doi.org/10.1007/s40121-022-00709-6) |
@@ -37,7 +37,7 @@
 | 32 | Muertes globales por RV en países pobres | 82% | — | <span class="badge badge-observado">◎ Observado</span> | [Chang 2018](https://doi.org/10.1186/s12916-018-1074-y) |
 | 33 | Cobertura RV quintil más pobre Etiopía | 26% | vs 67% más rico | <span class="badge badge-observado">◎ Observado</span> | [Wondimu 2020](https://doi.org/10.3390/ijerph17082696) |
 | 34 | Costo dosis Rotarix programa público AR | ~US$ 5–10 | — | <span class="badge badge-observado">◎ Observado</span> | [WHO Position Paper 2021](https://www.who.int/publications/i/item/WHO-WER9628) |
-| 35 | Costo hospitalización por RV (Gómez 1998) | ~US$ 1.200/día | Histórico 1998 | <span class="badge badge-observado">◎ Observado</span> | [Gómez 1998](https://doi.org/10.1097/00006454-200209000-00012) |
+| 35 | Costo hospitalización por RV (Gómez 1998) | ~US$ 300/día, total ~US$ 1.200 (~4 días) | Histórico 1998, homo-indexado | <span class="badge badge-observado">◎ Observado</span> | [Gómez 1998](https://doi.org/10.1097/00006454-200209000-00012) (§09) |
 | 36 | Cobertura necesaria para impacto significativo | >80% | — | <span class="badge badge-observado">◎ Observado</span> | [WHO 2021](https://www.who.int/publications/i/item/WHO-WER9628) |
 | 37 | Rango operacional exceso IS (OMS) | 1 en 18.000–33.000 | — | <span class="badge badge-observado">◎ Observado</span> | [WHO 2021](https://www.who.int/publications/i/item/WHO-WER9628) |
 | 38 | Rango operacional cirugía inducida | 1 en 20.000–37.000 | — | <span class="badge badge-derivado">◇ Derivado</span> | §5.8 |

@@ -6,7 +6,7 @@ Analizar cuantitativamente la **heterogeneidad poblacional del balance riesgo-be
 El informe documenta una **asimetría de magnitud** entre poblaciones:
 
 - para niños de **alto riesgo** (NOA/NEA, bajo SES), el riesgo de muerte por la enfermedad (~1 en 10.000–15.000 en el primer año) **supera claramente** al riesgo de intususcepción atribuible a la vacuna (~1 en 18.000–33.000);
-- para niños de **bajo riesgo** (GBA, medio-alto SES, acceso pediátrico inmediato), el riesgo de muerte por la enfermedad (~1 en 100.000+) **es inferior** al riesgo de intususcepción atribuible, desplazando el balance hacia el daño potencial.
+- para niños de **bajo riesgo** (GBA, medio-alto SES, acceso pediátrico inmediato), el riesgo de muerte por la enfermedad (~1 en 330.000–1.000.000, proxy regional GBD/Troeger 2018) **es inferior** al riesgo de intususcepción atribuible, desplazando el balance hacia el daño potencial (morbilidad quirúrgica; ver §7.2.3).
 
 No se pretende cuantificar prevalencia de "daño individual" o recomendar cambios de calendario. Se pretende **ofrecer una cuantificación reproducible de la asimetría** que permita un debate público informado.
 
