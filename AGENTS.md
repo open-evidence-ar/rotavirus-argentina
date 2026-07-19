@@ -43,6 +43,7 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 2. Run `python validate_ci.py` (when created) before any build
 3. Update `section-revisions.md` when substantive changes ship
 4. Never commit raw PDFs — only references to them
+5. All temporary working files (adversarial reviews, subagent reports, scratch notes) MUST live in `temp/` inside the repo — **never** in the OS temp directory (`%TEMP%`, `/tmp`). The `temp/` folder is gitignored. Losing data to OS temp cleanup is a preventable failure.
 
 ### MUST NOT do
 
@@ -114,6 +115,7 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 | `assets/css/style.scss` | Hoja de estilos (badges, calculo-box, nav responsive, print) |
 | `evidence/` | Manifiestos y referencias (sin PDFs crudos — sólo referencias) |
 | `agents/` | 7 archivos de referencia operativa (comandos diarios, gotchas, setup, metodología, catálogo de scripts, mapa de archivos, validate-cheatsheet) |
+| `temp/` | Archivos temporales de trabajo (reviews adversariales, reportes de subagentes, notas). Gitignored — nunca commiteados. |
 | `AGENTS.md` | Este archivo — operating manual |
 | `validate_ci.py` | 20 controles de metodología (METH-001 a METH-020; actual 17 PASS / 3 WARN / 0 FAIL) |
 | `scripts/validate_calculations.py` | Reproducibilidad numérica (14 casos — bloquea deploy si regresión) |

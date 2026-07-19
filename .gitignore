@@ -17,3 +17,6 @@ check_data_final.py
 _live_index.html
 _live_integrity.txt
 _live_sig.asc
+
+# temporary working files (adversarial reviews, subagent reports, scratch notes)
+temp/
