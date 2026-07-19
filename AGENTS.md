@@ -44,6 +44,7 @@ The risk-benefit of rotavirus vaccination is not uniform across populations. For
 3. Update `section-revisions.md` when substantive changes ship
 4. Never commit raw PDFs — only references to them
 5. All temporary working files (adversarial reviews, subagent reports, scratch notes) MUST live in `temp/` inside the repo — **never** in the OS temp directory (`%TEMP%`, `/tmp`). The `temp/` folder is gitignored. Losing data to OS temp cleanup is a preventable failure.
+6. Before any push, build, validation, or deploy — read `agents/daily-commands.md` first. It contains the exact commands (PAT setup, Jekyll build, PGP sign, push). Do not improvise.
 
 ### MUST NOT do
 
